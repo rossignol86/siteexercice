@@ -19,6 +19,13 @@ h2{
     line-height: 80px;
 }
 
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
 .grilleexercices{
     width: 70%;
     display: grid;
