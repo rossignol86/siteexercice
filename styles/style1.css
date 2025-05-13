@@ -1,0 +1,99 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body{
+    text-align: center;
+    max-height: 100%;
+}
+.logo{
+    width: 400px;
+    margin-bottom: 50px;
+}
+.titreindex{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: "Barriecito", system-ui;
+    color:#F66960;
+}
+h2{
+    font-size: 40px;
+    font-weight: 500px;
+    color: #1E5667;
+    margin-bottom: 10px;
+}
+
+/* body */
+
+.conteneurblocs{
+    width: 80%;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+}
+.bloc1{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+.bloc2{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+.bloc3{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.bloc1:hover {
+    transform: scale(1.05);
+}
+.bloc2:hover {
+    transform: scale(1.05);
+}
+.bloc3:hover {
+    transform: scale(1.05);
+}
+
+
+.blocimage{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.lienhtml{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color:black;
+}
+
+/* footer */
+.footerindex{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.blocsite{
+    height: 60px;
+    padding: 10px;
+}
+
+.textesite{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#F66960;
+    line-height: 30px;
+    padding-top: 20px;
+}

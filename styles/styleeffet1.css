@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.effetgrille{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background-color: rgb(14, 13, 13);
+    margin: 80px 0px;
+}
+
+.grille{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    gap: 50px;
+}
+.case1{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(7, 6, 6);
+    box-shadow: 
+    -10px 15px 70px rgba(0, 119, 255, 0.5),
+    10px -15px 70px rgba(0, 255, 0, 0.5);
+    border-left: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+    border-top: 2px solid rgb(38, 241, 20);
+    border-right: 2px solid rgb(52, 227, 36);
+    display: flex; 
+}
+.case2{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(7, 6, 6);
+    box-shadow: 
+    -10px 15px 70px rgba(240, 26, 230, 0.5),
+    10px -15px 70px rgba(3, 34, 234, 0.5);
+    border-left: 2px solid rgb(223, 10, 230);
+    border-bottom: 2px solid rgb(216, 13, 234);
+    border-top: 2px solid rgb(24, 13, 241);
+    border-right: 2px solid rgb(50, 9, 235);
+    display: flex; 
+}
+.case3{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(7, 6, 6);
+    box-shadow: 
+    -10px 15px 70px rgba(237, 245, 3, 0.5),
+    10px -15px 70px rgba(240, 15, 128, 0.5);
+    border-left: 2px solid rgb(221, 236, 13);
+    border-bottom: 2px solid rgb(197, 238, 14);
+    border-top: 2px solid rgb(246, 57, 5);
+    border-right: 2px solid rgb(217, 7, 7);
+    display: flex; 
+}
+
+
+.case1 img{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    object-fit:cover;
+}
+.case2 img{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    object-fit:cover;
+}
+.case3 img{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    object-fit:cover;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    height: auto;
+    padding: 10px;
+}
+.text{
+    opacity: 0;  
+}
+
+.case1:hover {
+    height: 600px;
+}
+.case2:hover {
+    height: 600px;
+}
+.case3:hover {
+    height: 600px;
+}
+
+.case1:hover .text {
+    color: white;
+    opacity: 1;
+    padding: 0px 20px 0px 20px ;  
+}
+.case2:hover .text{
+    color: white;
+    opacity: 1;
+    padding: 0px 20px 0px 20px ;  
+}
+.case3:hover .text{
+    color: white;
+    opacity: 1;
+    padding: 0px 20px 0px 20px ;  
+}

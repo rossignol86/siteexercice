@@ -1,0 +1,37 @@
+
+.titreinscription{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(48, 86, 22);
+    line-height: 3;
+}
+
+.textesiteinscription{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.boutoninscription {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #81d405;
+    border-radius: 5px;
+    background-color: #81d405;
+    margin-top: 30px;
+}
+
+.boutoninscription:hover, .boutoninscription:active {
+    background-color: #305616;
+    border: 2px solid #305616;
+    color: white;
+}
