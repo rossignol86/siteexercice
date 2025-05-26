@@ -29,9 +29,11 @@ h2{
 .conteneurblocs{
     width: 80%;
     margin-top: 70px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .bloc1{
     width: 400px;
@@ -39,6 +41,7 @@ h2{
     border-radius: 10px 0px 10px 0px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    margin-bottom: 30px;
 }
 .bloc2{
     width: 400px;
@@ -46,6 +49,7 @@ h2{
     border-radius: 10px 0px 10px 0px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    margin-bottom: 30px;
 }
 .bloc3{
     width: 400px;
@@ -53,6 +57,7 @@ h2{
     border-radius: 10px 0px 10px 0px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    margin-bottom: 30px;
 }
 
 .bloc1:hover {
